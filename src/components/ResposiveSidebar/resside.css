@@ -1,0 +1,11 @@
+.res-sidebar ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.res-sidebar ul img{
+    width: 25px;
+    filter: invert(1);
+    cursor: pointer;
+}

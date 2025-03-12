@@ -1,0 +1,37 @@
+.sidebar{
+    position: fixed;
+    width: 15%;
+    background: linear-gradient(to bottom, #16171a ,blue,#AA60C8,black);
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 95vh;
+    border-radius: 10px;
+    top: 2.5vh;
+    left: 20px;
+}
+.sidebar h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+   
+}
+.sidebar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sidebar ul li{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.sidebar ul li img {
+    width: 25px;
+    filter: invert(1);
+}
+

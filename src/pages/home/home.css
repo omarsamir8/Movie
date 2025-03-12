@@ -1,0 +1,24 @@
+.maincontainer{
+    position: absolute;
+    left: 18%;
+    margin-top: 2.5vh;
+    background:transparent ;
+    height: 95vh;
+    width: 80%;
+    border-radius: 10px;
+}
+.res-side{
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    .res-side{
+        display: block;
+    }
+    .sidebarcontainer{
+        display: none;
+    }
+    .maincontainer{
+        left: 5vh;
+    }
+
+}
